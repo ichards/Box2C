@@ -22,8 +22,8 @@ typedef struct _Body {
 
 Body Body_init(); 
 
-void Body_Set(const Vec2* w, float m);
+void Body_Set(Body* body, const Vec2* w, float m);
 
-void Body_AddForce(const Vec2* f);
+void Body_AddForce(Body* body, const Vec2* f);
 
 #endif

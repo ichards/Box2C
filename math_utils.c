@@ -1,6 +1,8 @@
 #include "math_utils.h"
 #include <cmath>
 
+
+
 float random() {
 	float r = (float)rand();
 	r /= RAND_MAX;
